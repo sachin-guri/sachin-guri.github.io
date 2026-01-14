@@ -6,11 +6,10 @@ import { switchMap, from, map } from 'rxjs';
 import { MatTabsModule } from '@angular/material/tabs';
 
 @Component({
-  selector: 'app-me-doing-rn-d',
-  standalone: true,
-  imports: [MatTabsModule],
-  templateUrl: './me-doing-rn-d.component.html',
-  styleUrl: './me-doing-rn-d.component.scss',
+    selector: 'app-me-doing-rn-d',
+    imports: [MatTabsModule],
+    templateUrl: './me-doing-rn-d.component.html',
+    styleUrl: './me-doing-rn-d.component.scss'
 })
 export class MeDoingRnDComponent {
   markdownContent: SafeHtml | null = null;

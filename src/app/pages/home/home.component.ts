@@ -17,11 +17,10 @@ import {
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [NgStyle, RouterLink, SvgHighlightDirective, ReactiveFormsModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+    selector: 'app-home',
+    imports: [NgStyle, RouterLink, SvgHighlightDirective, ReactiveFormsModule],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   public socialMediaLinks = SOCIAL_MEDIA_LINKS;

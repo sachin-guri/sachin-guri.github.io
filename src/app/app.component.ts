@@ -18,21 +18,20 @@ import { SideBarComponent } from './layout/side-bar/side-bar.component';
 import { HomeComponent } from './pages/home/home.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    RouterOutlet,
-    NgClass,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatListModule,
-    SideBarComponent,
-    HomeComponent,
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: 'app-root',
+    imports: [
+        RouterOutlet,
+        NgClass,
+        MatToolbarModule,
+        MatButtonModule,
+        MatIconModule,
+        MatSidenavModule,
+        MatListModule,
+        SideBarComponent,
+        HomeComponent,
+    ],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit, OnDestroy {
   @ViewChild('snav') snav: MatSidenav | undefined = undefined;

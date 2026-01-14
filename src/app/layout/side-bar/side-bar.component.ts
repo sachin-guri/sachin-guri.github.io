@@ -4,11 +4,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 import { SOCIAL_MEDIA_LINKS } from '../../shared/constant/social-media-links.constant';
 
 @Component({
-  selector: 'app-side-bar',
-  standalone: true,
-  imports: [NgClass, NgStyle, RouterLink, RouterLinkActive],
-  templateUrl: './side-bar.component.html',
-  styleUrl: './side-bar.component.scss',
+    selector: 'app-side-bar',
+    imports: [NgClass, NgStyle, RouterLink, RouterLinkActive],
+    templateUrl: './side-bar.component.html',
+    styleUrl: './side-bar.component.scss'
 })
 export class SideBarComponent {
   @Output() onToggle: EventEmitter<boolean> = new EventEmitter();
