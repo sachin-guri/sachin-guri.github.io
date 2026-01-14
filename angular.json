@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "kumarsachinguri.github.io": {
+    "sachin-guri.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/kumarsachinguri.github.io",
+            "outputPath": "dist/sachin-guri.github.io",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "kumarsachinguri.github.io:build:production"
+              "buildTarget": "sachin-guri.github.io:build:production"
             },
             "development": {
-              "buildTarget": "kumarsachinguri.github.io:build:development"
+              "buildTarget": "sachin-guri.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"

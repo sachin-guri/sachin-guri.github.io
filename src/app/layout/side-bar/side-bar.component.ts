@@ -25,12 +25,12 @@ export class SideBarComponent {
     //   route: '/snippets',
     //   newTab: false,
     // },
-    {
-      label: 'Blogs',
-      icon: '#icon-edit',
-      route: 'https://medium.com/@kumarsachinguri',
-      newTab: true,
-    },
+    // {
+    //   label: 'Blogs',
+    //   icon: '#icon-edit',
+    //   route: 'https://medium.com/@sachin-guri',
+    //   newTab: true,
+    // },
   ];
 
   public socialMediaLinks = SOCIAL_MEDIA_LINKS;

@@ -7,25 +7,25 @@ export const SOCIAL_MEDIA_LINKS: {
   {
     label: 'Instagram',
     icon: '#icon-instagram',
-    route: 'https://www.instagram.com/kumarsachinguri/',
+    route: 'https://www.instagram.com/sachin_guri_/',
     color: 'rgb(181, 23, 158)',
   },
   {
     label: 'Github',
     icon: '#icon-github',
-    route: 'https://github.com/kumarsachinguri',
+    route: 'https://github.com/sachin-guri',
     color: 'rgb(42, 157, 143)',
   },
   {
     label: 'Twitter',
     icon: '#icon-twitter',
-    route: 'https://x.com/kumarsachinguri',
+    route: 'https://x.com/guri_sachin',
     color: 'rgb(81, 150, 187)',
   },
   {
     label: 'LinkedIn',
     icon: '#icon-linkedin',
-    route: 'https://www.linkedin.com/in/kumarsachinguri/',
+    route: 'https://www.linkedin.com/in/sachin-guri/',
     color: 'rgb(2, 119, 181)',
   },
 ];
