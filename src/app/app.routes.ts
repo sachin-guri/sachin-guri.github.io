@@ -7,18 +7,18 @@ export const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    title: 'KS Guri - Home',
+    title: 'Sachin Guri - Home',
   },
-  { path: 'home', component: HomeComponent, title: 'KS Guri - Home' },
+  { path: 'home', component: HomeComponent, title: 'Home - Sachin Guri' },
   {
     path: 'medoingrnd',
     component: MeDoingRnDComponent,
-    title: 'KS Guri - R & D',
+    title: 'R & D - Sachin Guri',
   },
-  { path: 'snippets', component: HomeComponent, title: 'KS Guri - Snippets' },
+  { path: 'snippets', component: HomeComponent, title: 'Snippets - Sachin Guri' },
   {
     path: 'policy',
     component: PolicyComponent,
-    title: 'KS Guri - Privacy Policy',
+    title: 'Privacy Policy - Sachin Guri',
   },
 ];
