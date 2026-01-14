@@ -27,6 +27,7 @@ jobs:
     - run: |
           npm install --force
           npm run build
+          cp dist/sachin-guri.github.io/index.html dist/sachin-guri.github.io/404.html
 
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@v4.4.3
