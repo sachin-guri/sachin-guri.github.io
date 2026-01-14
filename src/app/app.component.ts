@@ -15,7 +15,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgClass } from '@angular/common';
 import { SideBarComponent } from './layout/side-bar/side-bar.component';
-import { HomeComponent } from './pages/home/home.component';
 
 @Component({
     selector: 'app-root',
@@ -28,7 +27,6 @@ import { HomeComponent } from './pages/home/home.component';
         MatSidenavModule,
         MatListModule,
         SideBarComponent,
-        HomeComponent,
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss'

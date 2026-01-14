@@ -1,11 +1,11 @@
-import { NgClass, NgStyle } from '@angular/common';
+import { NgStyle } from '@angular/common';
 import { Component, EventEmitter, Output } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink } from '@angular/router';
 import { SOCIAL_MEDIA_LINKS } from '../../shared/constant/social-media-links.constant';
 
 @Component({
     selector: 'app-side-bar',
-    imports: [NgClass, NgStyle, RouterLink, RouterLinkActive],
+    imports: [NgStyle, RouterLink],
     templateUrl: './side-bar.component.html',
     styleUrl: './side-bar.component.scss'
 })
